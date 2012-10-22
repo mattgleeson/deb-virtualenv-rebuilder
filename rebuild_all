@@ -1,0 +1,6 @@
+#!/bin/sh
+
+for d in `cat /etc/virtualenv-rebuilder/envs.d/*`; do
+    echo "rebuilding virtualenv at $d"
+    /etc/virtualenv-rebuilder/rebuild $d
+done

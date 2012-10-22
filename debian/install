@@ -1,0 +1,2 @@
+rebuild /etc/virtualenv-rebuilder/
+rebuild_all /etc/virtualenv-rebuilder/

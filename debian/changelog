@@ -1,0 +1,5 @@
+virtualenv-rebuilder (0.1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Matt Gleeson <matt@gleeson.org>  Fri, 19 Oct 2012 16:02:22 -0700

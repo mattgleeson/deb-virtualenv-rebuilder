@@ -1,0 +1,17 @@
+Source: virtualenv-rebuilder
+Section: python
+Priority: extra
+Maintainer: Matt Gleeson <matt@gleeson.org>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.3
+Homepage: https://github.com/mattgleeson/virtualenv-rebuilder
+
+Package: virtualenv-rebuilder
+Architecture: all
+Depends: ${misc:Depends}
+Description: Keep virtualenvs up to date when python is patched
+  All files in /etc/virtualenv-rebuilder/envs.d/* will be read in and 
+  treated as a list of directory names of virtualenvs.  They will be
+  rebuilt using the command in /etc/virtualenv-rebuilder/rebuild if
+  a change to the main python package(s) is detected.
+
