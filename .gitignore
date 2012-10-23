@@ -1,0 +1,3 @@
+debian/virtualenv-rebuilder.debhelper.log
+debian/virtualenv-rebuilder.substvars
+debian/virtualenv-rebuilder/
