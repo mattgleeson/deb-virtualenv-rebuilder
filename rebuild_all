@@ -4,3 +4,7 @@ for d in `cat /etc/virtualenv-rebuilder/envs.d/*`; do
     echo "rebuilding virtualenv at $d"
     /etc/virtualenv-rebuilder/rebuild $d
 done
+
+if service apache2 status && test -e /etc/apache2/mods-enabled/wsgi.load; then
+    service apache2 restart
+fi
